@@ -9,10 +9,7 @@ import { Projects } from "../data/projectsData";
 import { Services } from "../data/servicesData";
 import { WorkExperience } from "../data/workeperienceData";
 import Footer from "../layout/Footer";
-import footer_logo from "../assets/icon/logo.svg"
-import footer_email from "../assets/icon/icon_email.svg"
-import footer_linkedin from "../assets/icon/icon_linkedin.svg"
-import footer_behance from "../assets/icon/icon_behance.svg"
+import Resume from "../assets/adrian_albuera_cv.pdf"
 
 import adrian_albuera from "../assets/image/me_dp.jpg";
 import { Link, useNavigate } from "react-router-dom";
@@ -198,8 +195,8 @@ export default function Home() {
             {/* === small medium large === */}
             <div className="d-none d-sm-flex">
               <a
-                href="./assets/icon/aa_b.png"
-                download="aa_b.png"
+                href= {Resume}
+                download="adrian_albuera_cv"
                 className="aa-btn-accent "
                 aria-label="Download my CV"
               >

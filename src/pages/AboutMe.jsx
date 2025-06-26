@@ -14,6 +14,8 @@ import icon_invision from "../assets/icon/invision.svg";
 import icon_canva from "../assets/icon/canva.svg";
 import icon_capcut from "../assets/icon/capcut.svg";
 
+import Resume from "../assets/adrian_albuera_cv.pdf"
+
 export default function AboutMe() {
   const [activeIndex, setActiveIndex] = useState(null);
 
@@ -44,8 +46,8 @@ export default function AboutMe() {
             </p>
             <div className="row g-0">
               <a
-                href="./assets/icon/aa_b.png"
-                download="aa_b.png"
+                href= {Resume}
+                download="adrian_albuera_cv"
                 className="aa-btn-accent text-center "
                 aria-label="Download my CV"
               >

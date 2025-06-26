@@ -4,6 +4,7 @@ import footer_logo from "../assets/icon/logo.svg";
 import footer_email from "../assets/icon/icon_email.svg";
 import footer_linkedin from "../assets/icon/icon_linkedin.svg";
 import footer_behance from "../assets/icon/icon_behance.svg";
+import Resume from "../assets/adrian_albuera_cv.pdf"
 
 export default function Footer() {
   return (
@@ -27,8 +28,8 @@ export default function Footer() {
                 LET'S TALK
               </Link>
               <a
-                href="./assets/icon/aa_b.png"
-                download="aa_b.png"
+                href= {Resume}
+                download="adrian_albuera_cv"
                 className="aa-btn-outline "
                 aria-label="Download my CV"
               >
